@@ -1,0 +1,2 @@
+#!/bin/bash
+DRI_PRIME=0 VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.x86_64.json __VK_LAYER_NV_optimus= __NV_PRIME_RENDER_OFFLOAD=0 __GLX_VENDOR_LIBRARY_NAME= "$@"
